@@ -1,0 +1,71 @@
+// styles.scss
+$primary-color: blue;
+
+.merchandise-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.item {
+    flex-basis: 20%;
+    box-shadow: 0 2px 5px whitesmoke;
+    margin: 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 50%;
+    height: auto;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center; // Horizontally center the content
+    align-items: center;
+}
+    
+// h5 {
+//     font-family: Arial, sans-serif;
+//     display: flex;
+//     justify-content: center; // Horizontally center the content
+//     align-items: center;
+//     color: $primary-color;
+
+// }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+
+  .container {
+    padding: 20px;
+    color: $primary-color;
+
+    .button {
+      background-color: $primary-color;
+      color: white;
+      border: 1px solid transparent; // Added 'solid transparent' for clarity
+      padding: 10px 15px;
+      width: 100px;
+      cursor: pointer;
+      text-align: center; // Center text horizontally
+      text-decoration: none; // Remove text underline
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}

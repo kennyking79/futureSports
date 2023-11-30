@@ -1,0 +1,62 @@
+[
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/hoody1.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/hoody2.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/hat1.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/hat2.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/hat3.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/hat4.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/shirt1.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/shirt2.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/shirt3.png" 
+    },
+    {
+        "item_name": "test1",
+        "item_cost": "20012.99",
+        "size_available": ["S","M","L"],
+        "image_ref": "./Images/shirt4.png" 
+    }
+]
