@@ -69,3 +69,39 @@ body {
     }
   }
 }
+
+.login-container {
+  max-width: 300px;
+  margin: auto;
+  padding-top: 100px; /* Adjust as needed */
+  color: rgb(7, 7, 7);
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #0a0a0a;
+  color: #090909;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #ddd;
+}
