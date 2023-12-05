@@ -1,5 +1,5 @@
 import React from "react";
-// import "../styles.scss"
+import "./styles.scss"
 import "./Navigation"
 import Navigation from "./Navigation";
 import Box from '@mui/material/Box';
@@ -10,7 +10,7 @@ function Header() {
         <header id="header">
         <Box sx={{display: 'flex', flexDirection: 'column',minHeight: '10vh', justifyContent: 'center', alignItems: 'center'}}>
             <Navigation/>
-            <Typography variant="h1" gutterBottom>
+            <Typography sx={{ color: 'green' }} variant="h1" gutterBottom>
                 CYBERSPORTS
             </Typography>
             
