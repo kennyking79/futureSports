@@ -52,7 +52,7 @@ function ShopItem({ item }) {
                     >
                         <CloseIcon />
                     </IconButton>
-                    <img src={item.image_ref} alt={item.item_name} style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                    <img src={item.image_ref} style={{ maxWidth: '100%', maxHeight: '100%' }} />
                 </Box>
             </Modal>
         </Card>

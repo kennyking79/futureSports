@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Box, Typography, TextField, Button, CircularProgress } from '@mui/material';
+import { WiDaySunny, WiCloudy, WiRain, WiSnow } from 'react-icons/wi'; // Import weather icons
 
 const WeatherDisplay = () => {
     const [city, setCity] = useState('Sydney');
@@ -30,30 +32,57 @@ const WeatherDisplay = () => {
         fetchWeatherData(city);
     };
 
+    const getWeatherIcon = (weatherCode) => {
+        // Use the weather code to determine which icon to show
+        // This is a basic example, you might need to adjust the logic based on your API's response
+        switch(weatherCode) {
+            case 'Clear':
+                return <WiDaySunny />;
+            case 'Clouds':
+                return <WiCloudy />;
+            case 'Rain':
+                return <WiRain />;
+            case 'Snow':
+                return <WiSnow />;
+            default:
+                return <WiDaySunny />;
+        }
+    };
+
     return (
-        <div>
-            <form onSubmit={handleSearch}>
-                <input 
-                    type="text" 
+        <Box sx={{ padding: 2, maxWidth: 400, margin: 'auto' }}>
+            <Typography variant="h4" gutterBottom>
+                Weather Finder
+            </Typography>
+            <form onSubmit={handleSearch} style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+                <TextField 
+                    label="City"
+                    variant="outlined"
+                    size="small"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
-                    placeholder="Enter a city"
                 />
-                <button type="submit">Search</button>
+                <Button variant="contained" color="primary" type="submit">
+                    Search
+                </Button>
             </form>
 
-            {isLoading && <div>Loading...</div>}
-            {error && <div>Error: {error.message}</div>}
+            {isLoading && <CircularProgress />}
+            {error && <Typography color="error">Error: {error.message}</Typography>}
             {weatherData && (
-                <div>
-                    <h2>Current Weather in {city}</h2>
-                    {/* Example data display, adjust based on actual response structure */}
-                    <p>Temperature: {weatherData.data[0].temp}°C</p>
-                    <p>Humidity: {weatherData.data[0].rh}%</p>
-                    {/* Add more weather details as needed */}
-                </div>
+                <Box>
+                    <Typography variant="h6">Current Weather in {city}</Typography>
+                    <Box display="flex" alignItems="center" justifyContent="space-between">
+                        <div>{getWeatherIcon(weatherData.data[0].weather.code)}</div>
+                        <div>
+                            <Typography>Temperature: {weatherData.data[0].temp}°C</Typography>
+                            <Typography>Humidity: {weatherData.data[0].rh}%</Typography>
+                            {/* Add more weather details as needed */}
+                        </div>
+                    </Box>
+                </Box>
             )}
-        </div>
+        </Box>
     );
 };
 
