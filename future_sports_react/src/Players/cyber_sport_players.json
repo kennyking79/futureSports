@@ -1,0 +1,132 @@
+[
+    {
+        "player_name": "Alex",
+        "age": 32,
+        "playing_style": "Adept at stealth and precision, capable of taking down targets from a distance with high accuracy.",
+        "special_abilities": "Employs a unique teleportation device, enabling instant movement across short distances on the battlefield.",
+        "total_played_matches": 199,
+        "award": "Best Strategist",
+        "image_src": "Images/1.png",
+        "game_rating": 1
+    },
+    {
+        "player_name": "Jordan",
+        "age": 22,
+        "playing_style": "Specializes in quick strikes and rapid assaults, often using teleportation tech.",
+        "special_abilities": "Has a cybernetic exoskeleton offering enhanced endurance and protection from heavy attacks.",
+        "total_played_matches": 140,
+        "award": "MVP of the Year",
+        "image_src": "Images/2.png",
+        "game_rating": 3
+    },
+    {
+        "player_name": "Taylor",
+        "age": 30,
+        "playing_style": "Fast and agile, skilled in reconnaissance and gathering crucial battlefield information.",
+        "special_abilities": "Employs electromagnetic pulse devices to disable enemy tech, coupled with superior hacking skills.",
+        "total_played_matches": 168,
+        "award": "Sharpshooter Award",
+        "image_src": "Images/3.png",
+        "game_rating": 4
+    },
+    {
+        "player_name": "Morgan",
+        "age": 26,
+        "playing_style": "Leads the team with strategic planning and advanced communication technology.",
+        "special_abilities": "Utilizes energy-based weapons that adapt to enemy vulnerabilities, providing a strategic edge in combat.",
+        "total_played_matches": 62,
+        "award": "Most Improved Player",
+        "image_src": "Images/4.png",
+        "game_rating": 2
+    },
+    {
+        "player_name": "Charlie",
+        "age": 35,
+        "playing_style": "Known for strategic defense tactics, utilizing energy shields and cybernetic fortifications.",
+        "special_abilities": "Features an advanced AI system for strategic planning, capable of predicting enemy moves.",
+        "total_played_matches": 190,
+        "award": "Most Improved Player",
+        "image_src": "Images/5.png",
+        "game_rating": 2
+    },
+    {
+        "player_name": "Jamie",
+        "age": 22,
+        "playing_style": "Equipped with rapid-fire mechanisms and enhanced targeting systems, excels in long-range combat.",
+        "special_abilities": "Armed with a cybernetic arm enhancing strength, and a tactical visor for augmented reality tracking.",
+        "total_played_matches": 180,
+        "award": "MVP of the Year",
+        "image_src": "Images/6.png",
+        "game_rating": 10
+    },
+    {
+        "player_name": "Casey",
+        "age": 34,
+        "playing_style": "Fast and agile, skilled in reconnaissance and gathering crucial battlefield information.",
+        "special_abilities": "Possesses a neural interface for controlling multiple combat drones simultaneously, maximizing field control.",
+        "total_played_matches": 85,
+        "award": "Tactical Mastermind",
+        "image_src": "Images/7.png",
+        "game_rating": 6
+    },
+    {
+        "player_name": "Riley",
+        "age": 21,
+        "playing_style": "Fast and agile, skilled in reconnaissance and gathering crucial battlefield information.",
+        "special_abilities": "Boasts high-speed mobility enhancements, allowing rapid traversal of terrain and quick escapes.",
+        "total_played_matches": 137,
+        "award": "Best Strategist",
+        "image_src": "Images/8.png",
+        "game_rating": 7
+    },
+    {
+        "player_name": "Avery",
+        "age": 28,
+        "playing_style": "Strong and durable, able to withstand heavy attacks and protect teammates.",
+        "special_abilities": "Possesses a neural interface for controlling multiple combat drones simultaneously, maximizing field control.",
+        "total_played_matches": 158,
+        "award": "Best Rookie",
+        "image_src": "Images/9.png",
+        "game_rating": 6
+    },
+    {
+        "player_name": "Peyton",
+        "age": 32,
+        "playing_style": "Specializes in quick strikes and rapid assaults, often using teleportation tech.",
+        "special_abilities": "Equipped with drone companions for surveillance and minor repairs during combat situations.",
+        "total_played_matches": 98,
+        "award": "Tactical Mastermind",
+        "image_src": "Images/10.png",
+        "game_rating": 1
+    },
+    {
+        "player_name": "Skyler",
+        "age": 25,
+        "playing_style": "Leads the team with strategic planning and advanced communication technology.",
+        "special_abilities": "Boasts high-speed mobility enhancements, allowing rapid traversal of terrain and quick escapes.",
+        "total_played_matches": 85,
+        "award": "Most Improved Player",
+        "image_src": "Images/12.png",
+        "game_rating": 7
+    },
+    {
+        "player_name": "Cameron",
+        "age": 32,
+        "playing_style": "Equipped with rapid-fire mechanisms and enhanced targeting systems, excels in long-range combat.",
+        "special_abilities": "Armed with a cybernetic arm enhancing strength, and a tactical visor for augmented reality tracking.",
+        "total_played_matches": 127,
+        "award": "Crowd Favorite",
+        "image_src": "Images/13.png",
+        "game_rating": 2
+    },
+    {
+        "player_name": "Dakota",
+        "age": 19,
+        "playing_style": "Adept at stealth and precision, capable of taking down targets from a distance with high accuracy.",
+        "special_abilities": "Employs electromagnetic pulse devices to disable enemy tech, coupled with superior hacking skills.",
+        "total_played_matches": 95,
+        "award": "Defensive Genius",
+        "image_src": "Images/13.png",
+        "game_rating": 9
+    }
+]

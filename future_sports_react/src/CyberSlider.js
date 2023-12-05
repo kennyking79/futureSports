@@ -34,8 +34,8 @@ const CyberSlider = () => {
             slidesToShow: 10,
             slidesToScroll: 1,
             autoplay: true,
-            speed: 1000,
-            autoplaySpeed: 1000,
+            speed: 3000,
+            autoplaySpeed: 3000,
             cssEase: 'linear',
         }
     );
