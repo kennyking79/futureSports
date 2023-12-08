@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/github-pages-app/static/css/main.23b808ef.css",
-    "main.js": "/github-pages-app/static/js/main.d00903ff.js",
-    "static/js/787.05514b36.chunk.js": "/github-pages-app/static/js/787.05514b36.chunk.js",
-    "static/media/slick.svg": "/github-pages-app/static/media/slick.7ba97953187dc2907930.svg",
-    "static/media/slick.eot": "/github-pages-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/github-pages-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/github-pages-app/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/github-pages-app/index.html",
-    "main.23b808ef.css.map": "/github-pages-app/static/css/main.23b808ef.css.map",
-    "main.d00903ff.js.map": "/github-pages-app/static/js/main.d00903ff.js.map",
-    "787.05514b36.chunk.js.map": "/github-pages-app/static/js/787.05514b36.chunk.js.map"
+    "main.css": "/static/css/main.4098f82a.css",
+    "main.js": "/static/js/main.5cc3fa86.js",
+    "static/js/787.05514b36.chunk.js": "/static/js/787.05514b36.chunk.js",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.4098f82a.css.map": "/static/css/main.4098f82a.css.map",
+    "main.5cc3fa86.js.map": "/static/js/main.5cc3fa86.js.map",
+    "787.05514b36.chunk.js.map": "/static/js/787.05514b36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23b808ef.css",
-    "static/js/main.d00903ff.js"
+    "static/css/main.4098f82a.css",
+    "static/js/main.5cc3fa86.js"
   ]
 }
