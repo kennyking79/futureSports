@@ -6,15 +6,15 @@ import { Container, TextField, Button, Box, Typography, Card, CardContent } from
 function Admin() {
   return (
     <ErrorBoundary>
-      <Container maxWidth="xs">
-        <Card>
-          <CardContent>
+      <Container maxWidth="xs" sx={{ backgroundColor: 'black', color: 'white', height: '100vh', paddingTop: 2 }}>
+        <Card sx={{ backgroundColor: 'black', color: 'white' }}>
+          <CardContent sx={{ backgroundColor: 'black' }}> {/* Make sure CardContent also has a black background */}
             <Box
               sx={{
-                marginTop: 8,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
+                backgroundColor: 'black' // Ensure this is black as well
               }}
             >
               <Typography component="h1" variant="h5">
@@ -30,6 +30,21 @@ function Admin() {
                   name="username"
                   autoComplete="username"
                   autoFocus
+                  InputLabelProps={{ style: { color: 'white' } }}
+                  sx={{ 
+                    input: { color: 'white' },
+                    '& .MuiOutlinedInput-root': {
+                      '& fieldset': {
+                        borderColor: 'white',
+                      },
+                      '&:hover fieldset': {
+                        borderColor: 'white',
+                      },
+                      '&.Mui-focused fieldset': {
+                        borderColor: 'white',
+                      },
+                    }
+                  }}
                 />
                 <TextField
                   margin="normal"
@@ -40,6 +55,21 @@ function Admin() {
                   type="password"
                   id="password"
                   autoComplete="current-password"
+                  InputLabelProps={{ style: { color: 'white' } }}
+                  sx={{ 
+                    input: { color: 'white' },
+                    '& .MuiOutlinedInput-root': {
+                      '& fieldset': {
+                        borderColor: 'white',
+                      },
+                      '&:hover fieldset': {
+                        borderColor: 'white',
+                      },
+                      '&.Mui-focused fieldset': {
+                        borderColor: 'white',
+                      },
+                    }
+                  }}
                 />
                 <Button
                   type="submit"

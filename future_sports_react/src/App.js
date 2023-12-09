@@ -9,7 +9,7 @@ import ShopPage from './Shop/Shop';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
@@ -24,4 +24,5 @@ function App() {
   );
 }
 
-export default App
+export default App;
+
