@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/futureSports/static/css/main.4df3c933.css",
-    "main.js": "/futureSports/static/js/main.87b39de3.js",
+    "main.css": "/futureSports/static/css/main.add8c898.css",
+    "main.js": "/futureSports/static/js/main.fde085e6.js",
     "static/js/787.05514b36.chunk.js": "/futureSports/static/js/787.05514b36.chunk.js",
     "static/media/slick.svg": "/futureSports/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/futureSports/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/futureSports/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/futureSports/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/futureSports/index.html",
-    "main.4df3c933.css.map": "/futureSports/static/css/main.4df3c933.css.map",
-    "main.87b39de3.js.map": "/futureSports/static/js/main.87b39de3.js.map",
+    "main.add8c898.css.map": "/futureSports/static/css/main.add8c898.css.map",
+    "main.fde085e6.js.map": "/futureSports/static/js/main.fde085e6.js.map",
     "787.05514b36.chunk.js.map": "/futureSports/static/js/787.05514b36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4df3c933.css",
-    "static/js/main.87b39de3.js"
+    "static/css/main.add8c898.css",
+    "static/js/main.fde085e6.js"
   ]
 }
