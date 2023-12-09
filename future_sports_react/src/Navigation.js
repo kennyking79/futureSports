@@ -1,19 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import './nav.css';
-
+import { Link as RouterLink } from "react-router-dom";
+import { AppBar, Toolbar, Button } from '@mui/material';
 
 function Navigation() {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/players">Players</Link></li>
-        <li><Link to="/shop">Shop</Link></li>
-        <li><Link to="/admin">Admin</Link></li>
+    <AppBar position="static" sx={{ backgroundColor: 'white' }}>
+      <Toolbar>
+        <Button color="inherit" component={RouterLink} to="/" sx={{ color: 'black' }}>Home</Button>
+        <Button color="inherit" component={RouterLink} to="/players" sx={{ color: 'black' }}>Players</Button>
+        <Button color="inherit" component={RouterLink} to="/shop" sx={{ color: 'black' }}>Shop</Button>
+        <Button color="inherit" component={RouterLink} to="/admin" sx={{ color: 'black' }}>Admin</Button>
         {/* Add additional links as needed */}
-      </ul>
-    </nav>
+      </Toolbar>
+    </AppBar>
   );
 }
 

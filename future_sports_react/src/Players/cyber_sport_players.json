@@ -7,7 +7,8 @@
         "total_played_matches": 199,
         "award": "Best Strategist",
         "image_src": "Images/1.png",
-        "game_rating": 1
+        "game_rating": 1,
+        "id": 1
     },
     {
         "player_name": "Jordan",
@@ -17,7 +18,8 @@
         "total_played_matches": 140,
         "award": "MVP of the Year",
         "image_src": "Images/2.png",
-        "game_rating": 3
+        "game_rating": 3,
+        "id": 2
     },
     {
         "player_name": "Taylor",
@@ -27,7 +29,8 @@
         "total_played_matches": 168,
         "award": "Sharpshooter Award",
         "image_src": "Images/3.png",
-        "game_rating": 4
+        "game_rating": 4,
+        "id": 3
     },
     {
         "player_name": "Morgan",
@@ -37,7 +40,8 @@
         "total_played_matches": 62,
         "award": "Most Improved Player",
         "image_src": "Images/4.png",
-        "game_rating": 2
+        "game_rating": 2,
+        "id": 4
     },
     {
         "player_name": "Charlie",
@@ -47,7 +51,8 @@
         "total_played_matches": 190,
         "award": "Most Improved Player",
         "image_src": "Images/5.png",
-        "game_rating": 2
+        "game_rating": 2,
+        "id": 5
     },
     {
         "player_name": "Jamie",
@@ -57,7 +62,8 @@
         "total_played_matches": 180,
         "award": "MVP of the Year",
         "image_src": "Images/6.png",
-        "game_rating": 10
+        "game_rating": 10,
+        "id": 6
     },
     {
         "player_name": "Casey",
@@ -67,7 +73,8 @@
         "total_played_matches": 85,
         "award": "Tactical Mastermind",
         "image_src": "Images/7.png",
-        "game_rating": 6
+        "game_rating": 6,
+        "id": 7
     },
     {
         "player_name": "Riley",
@@ -77,7 +84,8 @@
         "total_played_matches": 137,
         "award": "Best Strategist",
         "image_src": "Images/8.png",
-        "game_rating": 7
+        "game_rating": 7,
+        "id": 8
     },
     {
         "player_name": "Avery",
@@ -87,7 +95,8 @@
         "total_played_matches": 158,
         "award": "Best Rookie",
         "image_src": "Images/9.png",
-        "game_rating": 6
+        "game_rating": 6,
+        "id": 9
     },
     {
         "player_name": "Peyton",
@@ -97,7 +106,8 @@
         "total_played_matches": 98,
         "award": "Tactical Mastermind",
         "image_src": "Images/10.png",
-        "game_rating": 1
+        "game_rating": 1,
+        "id": 10
     },
     {
         "player_name": "Skyler",
@@ -107,7 +117,8 @@
         "total_played_matches": 85,
         "award": "Most Improved Player",
         "image_src": "Images/12.png",
-        "game_rating": 7
+        "game_rating": 7,
+        "id": 11
     },
     {
         "player_name": "Cameron",
@@ -117,7 +128,8 @@
         "total_played_matches": 127,
         "award": "Crowd Favorite",
         "image_src": "Images/13.png",
-        "game_rating": 2
+        "game_rating": 2,
+        "id": 12
     },
     {
         "player_name": "Dakota",
@@ -127,6 +139,7 @@
         "total_played_matches": 95,
         "award": "Defensive Genius",
         "image_src": "Images/13.png",
-        "game_rating": 9
+        "game_rating": 9,
+        "id": 13
     }
 ]

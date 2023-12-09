@@ -8,21 +8,21 @@ import Slider from 'react-slick';
 
 const logos = [
 
-    './Images/logo4.png',
-    './Images/logo5.png',
-    './Images/logo6.png',
-    './Images/logo7.png',
-    './Images/logo8.png',
-    './Images/logo9.png',
-    './Images/logo10.png',
-    './Images/logo11.png',
-    './Images/logo12.png',
-    './Images/logo13.png',
-    './Images/logo14.png',
-    './Images/logo15.png',
-    './Images/logo16.png',
-    './Images/logo17.png',
-    './Images/logo18.png',
+    `${process.env.PUBLIC_URL}/Images/logo4.png`,
+    `${process.env.PUBLIC_URL}/Images/logo5.png`,
+    `${process.env.PUBLIC_URL}/Images/logo6.png`,
+    `${process.env.PUBLIC_URL}/Images/logo7.png`,
+    `${process.env.PUBLIC_URL}/Images/logo8.png`,
+    `${process.env.PUBLIC_URL}/Images/logo9.png`,
+    `${process.env.PUBLIC_URL}/Images/logo10.png`,
+    `${process.env.PUBLIC_URL}/Images/logo11.png`,
+    `${process.env.PUBLIC_URL}/Images/logo12.png`,
+    `${process.env.PUBLIC_URL}/Images/logo13.png`,
+    `${process.env.PUBLIC_URL}/Images/logo14.png`,
+    `${process.env.PUBLIC_URL}/Images/logo15.png`,
+    `${process.env.PUBLIC_URL}/Images/logo16.png`,
+    `${process.env.PUBLIC_URL}/Images/logo17.png`,
+    `${process.env.PUBLIC_URL}/Images/logo18.png`,
 ]
 
 const CyberSlider = () => {

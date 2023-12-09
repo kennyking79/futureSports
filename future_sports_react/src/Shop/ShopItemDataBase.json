@@ -3,60 +3,70 @@
         "item_name": "Aweomse Hoody",
         "item_cost": "89.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/hoody1.png" 
+        "image_ref": "./Images/hoody1.png" ,
+        "id": 1
     },
     {
         "item_name": "Raver Hoody",
         "item_cost": "109.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/hoody2.png" 
+        "image_ref": "./Images/hoody2.png",
+        "id": 2
     },
     {
         "item_name": "Cool Hat",
         "item_cost": "59.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/hat1.png" 
+        "image_ref": "./Images/hat1.png",
+        "id": 3
     },
     {
         "item_name": "Stalker Hat",
         "item_cost": "45.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/hat2.png" 
+        "image_ref": "./Images/hat2.png",
+        "id": 4
     },
     {
         "item_name": "Hat le brae",
         "item_cost": "78.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/hat3.png" 
+        "image_ref": "./Images/hat3.png",
+        "id": 5 
     },
     {
         "item_name": "Cra cra hat",
         "item_cost": "34.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/hat4.png" 
+        "image_ref": "./Images/hat4.png",
+        "id": 6 
     },
     {
         "item_name": "Marven Shirt",
         "item_cost": "79.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/shirt1.png" 
+        "image_ref": "./Images/shirt1.png",
+        "id": 7
     },
     {
         "item_name": "Barry Shirt",
         "item_cost": "110.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/shirt2.png" 
+        "image_ref": "./Images/shirt2.png",
+        "id": 8 
     },
     {
         "item_name": "Striker Shirt",
         "item_cost": "200.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/shirt3.png" 
+        "image_ref": "./Images/shirt3.png",
+        "id": 9
     },
     {
         "item_name": "Gravel",
         "item_cost": "44.99",
         "size_available": ["S","M","L"],
-        "image_ref": "./Images/shirt4.png" 
+        "image_ref": "./Images/shirt4.png",
+        "id": 10 
     }
 ]

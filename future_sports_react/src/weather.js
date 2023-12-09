@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Box, Typography, TextField, Button, CircularProgress } from '@mui/material';
+import { Box, Typography, TextField, Button, CircularProgress, Grid, Paper } from '@mui/material';
 import { WiDaySunny, WiCloudy, WiRain, WiSnow } from 'react-icons/wi'; // Import weather icons
 
 const WeatherDisplay = () => {
@@ -33,8 +33,6 @@ const WeatherDisplay = () => {
     };
 
     const getWeatherIcon = (weatherCode) => {
-        // Use the weather code to determine which icon to show
-        // This is a basic example, you might need to adjust the logic based on your API's response
         switch(weatherCode) {
             case 'Clear':
                 return <WiDaySunny />;
@@ -50,7 +48,15 @@ const WeatherDisplay = () => {
     };
 
     return (
-        <Box sx={{ padding: 2, maxWidth: 400, margin: 'auto' }}>
+        
+        <Box sx={{ padding: 2, margin: 'auto', backgroundColor: 'black'}}>
+            <Grid item xs={12}>
+                    <Paper sx={{ padding: '20px', backgroundColor: 'gray', color: 'white' }}>
+                        <Typography variant="p" gutterBottom>
+                            Admins please check the weather with this complimentary weather app before you book your games
+                        </Typography>
+                    </Paper>
+            </Grid>
             <Typography variant="h4" gutterBottom>
                 Weather Finder
             </Typography>
@@ -61,6 +67,22 @@ const WeatherDisplay = () => {
                     size="small"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
+                    InputLabelProps={{ style: { color: 'white' } }}
+                    sx={{ 
+                        input: { color: 'white' },
+                        '& .MuiOutlinedInput-root': {
+                            '& fieldset': {
+                                borderColor: 'white',
+                            },
+                            '&:hover fieldset': {
+                                borderColor: 'white',
+                            },
+                            '&.Mui-focused fieldset': {
+                                borderColor: 'white',
+                            },
+                            backgroundColor: 'black',
+                        }
+                    }}
                 />
                 <Button variant="contained" color="primary" type="submit">
                     Search
