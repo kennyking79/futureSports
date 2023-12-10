@@ -10,7 +10,6 @@ function Navigation() {
         <Button color="inherit" component={RouterLink} to="/players" sx={{ color: 'black' }}>Players</Button>
         <Button color="inherit" component={RouterLink} to="/shop" sx={{ color: 'black' }}>Shop</Button>
         <Button color="inherit" component={RouterLink} to="/admin" sx={{ color: 'black' }}>Admin</Button>
-        {/* Add additional links as needed */}
       </Toolbar>
     </AppBar>
   );

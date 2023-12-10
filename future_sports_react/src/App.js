@@ -16,7 +16,6 @@ function App() {
           <Route path="players" element={<PlayerPage />} />
           <Route path="shop" element={<ShopPage />} />
           <Route path="admin" element={<AdminPage />} />
-          {/* Nested routes under Layout */}
         </Route>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

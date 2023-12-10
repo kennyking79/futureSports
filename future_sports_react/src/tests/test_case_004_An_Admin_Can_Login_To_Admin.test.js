@@ -27,6 +27,4 @@ describe('Admin Component', () => {
     fireEvent.change(passwordInput, { target: { value: 'password123' } });
     expect(passwordInput.value).toBe('password123');
   });
-
-  // Additional tests can be added here
 });

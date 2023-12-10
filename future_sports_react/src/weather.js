@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Box, Typography, TextField, Button, CircularProgress, Grid, Paper } from '@mui/material';
-import { WiDaySunny, WiCloudy, WiRain, WiSnow } from 'react-icons/wi'; // Import weather icons
+import { WiDaySunny, WiCloudy, WiRain, WiSnow } from 'react-icons/wi';
 
 const WeatherDisplay = () => {
     const [city, setCity] = useState('Sydney');
@@ -15,7 +15,7 @@ const WeatherDisplay = () => {
             const response = await axios.get(`https://api.weatherbit.io/v2.0/current`, {
                 params: {
                     city: cityName,
-                    key: "5fdc660a6ef746f7be78d46a9f232d06", // Replace with your actual API key
+                    key: "5fdc660a6ef746f7be78d46a9f232d06",
                     include: "minutely"
                 }
             });
