@@ -22,5 +22,4 @@ describe('Shop Component', () => {
     expect(screen.getByAltText('Test Item')).toBeInTheDocument();
   });
 
-  // Additional tests can be added here
 });

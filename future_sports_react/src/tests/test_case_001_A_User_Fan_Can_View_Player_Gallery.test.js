@@ -25,5 +25,4 @@ describe('Gallery Component', () => {
     expect(screen.getByAltText('Test Player')).toHaveAttribute('src', 'test_image.jpg');
   });
 
-  // Additional tests can be added here, such as testing the accordion functionality
 });

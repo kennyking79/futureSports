@@ -8,13 +8,13 @@ function Admin() {
     <ErrorBoundary>
       <Container maxWidth="xs" sx={{ backgroundColor: 'black', color: 'white', height: '100vh', paddingTop: 2 }}>
         <Card sx={{ backgroundColor: 'black', color: 'white' }}>
-          <CardContent sx={{ backgroundColor: 'black' }}> {/* Make sure CardContent also has a black background */}
+          <CardContent sx={{ backgroundColor: 'black' }}>
             <Box
               sx={{
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                backgroundColor: 'black' // Ensure this is black as well
+                backgroundColor: 'black'
               }}
             >
               <Typography component="h1" variant="h5">

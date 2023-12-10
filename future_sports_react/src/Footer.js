@@ -19,7 +19,6 @@ function Copyright() {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
 export default function StickyFooter() {
@@ -38,12 +37,7 @@ export default function StickyFooter() {
           <Typography variant="h2" component="h1" gutterBottom>
             CYBER SPORTS
           </Typography>
-         
-          {/* <Typography variant="h5" component="h2" gutterBottom>
-            {'Pin a footer to the bottom of the viewport.'}
-            {'The footer will move as the main element of the page grows.'}
-          </Typography> */}
-          {/* <Typography variant="body1">Sticky footer placeholder.</Typography> */}
+        
         </Container>
         
         <Box
